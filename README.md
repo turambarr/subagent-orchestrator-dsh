@@ -25,11 +25,8 @@ skills/experiment-orchestration/
 │   ├── consistency-check.md    # 一致性校验
 │   ├── read-only-review.md     # 只读审查
 │   └── mechanical-transform.md # 机械转换
-├── acceptance/
-│   └── gates.md                # 两级验收 + 四级门 + 三条红线
-└── domain/
-    └── ntn/
-        └── appendix.md         # NTN 定位仿真平台专属附录
+└── acceptance/
+    └── gates.md                # 两级验收 + 四级门 + 三条红线
 ```
 
 ## 安装
@@ -38,9 +35,9 @@ skills/experiment-orchestration/
 dsh plugin --profile <profile> add subagent-orchestrator-dsh
 ```
 
-## 领域扩展
+## 领域扩展（可选）
 
-新增 `domain/<name>/appendix.md` 即可接入新领域，核心机制不动。
+本技能不内置领域专属内容。需要接入特定领域时，新增 `domain/<name>/appendix.md`，核心机制不动。
 
 ## License
 
