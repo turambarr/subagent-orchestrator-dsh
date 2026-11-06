@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "skillId": "experiment-orchestration",
+  "channel": "stable",
+  "version": "1.0.0",
+  "source": {
+    "repository": "https://github.com/turambarr/subagent-orchestrator-dsh"
+  },
+  "updateManifestUrl": ""
+}

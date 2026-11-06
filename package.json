@@ -1,0 +1,33 @@
+{
+  "name": "subagent-orchestrator-dsh",
+  "version": "1.0.0",
+  "description": "实验编排 SOP：顶层模型(pro)控制实验设计与验收，轻量子智能体(flash)执行确定性子任务。Experiment-orchestration skill-only bundle for DeepSeek Harness.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "release.json"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-skill",
+    "subagent-orchestration"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
